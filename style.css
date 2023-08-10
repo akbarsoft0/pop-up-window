@@ -78,6 +78,17 @@ button {
     position: relative;
 }
 
+footer {
+    position: fixed;
+    inset: auto 0 0 0;
+    background-color: black;
+}
+
+footer a {
+    padding: 0.4rem 2rem;
+    color: #fff;
+}
+
 @keyframes drop {
     0% {
         top: -100px;
@@ -116,9 +127,8 @@ button {
         padding: 1rem 0;
         margin-bottom: 1rem;
     }
-}
 
-footer {
-    color: #fff;
-    text-transform: capitalize;
+    footer {
+        padding-left: 1rem;
+    }
 }
